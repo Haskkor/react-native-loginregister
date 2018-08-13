@@ -1,0 +1,49 @@
+{
+  "name": "react-native-loginregister",
+  "version": "1.0.0",
+  "description": "React native Login Register flow",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "yarn build -watch",
+    "build": "tsc",
+    "compile": "npm run build",
+    "addlocal": "yarn add file:./local_modules/react-native-pincode",
+    "test": "jest",
+    "pretty": "prettier --single-quote --no-semi --jsx-bracket-same-line --write \"src/**/*.{ts, tsx}\""
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haskkor/react-native-loginregister.git"
+  },
+  "author": "Jeremy Farnault",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Haskkor/react-native-loginregister/issues"
+  },
+  "homepage": "https://github.com/Haskkor/react-native-loginregister#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.116",
+    "@types/prettier": "^1.13.2",
+    "@types/react": "^16.4.9",
+    "@types/react-native": "^0.56.7",
+    "@types/typescript": "^2.0.0",
+    "prettier": "^1.14.2",
+    "react": "^16.4.2",
+    "react-native": "^0.56.0",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "@types/d3-ease": "^1.0.7",
+    "d3-ease": "^1.0.3",
+    "lodash": "^4.17.10",
+    "react-move": "^2.8.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
