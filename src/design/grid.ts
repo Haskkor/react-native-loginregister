@@ -1,5 +1,6 @@
 const grid = {
   unit: 16,
+  font: 'courier',
   headline: 32,
   title: 24,
   subheader: 18,
