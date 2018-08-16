@@ -12,7 +12,6 @@ import {
 import { Animate } from 'react-move'
 import { easeQuadInOut } from 'd3-ease'
 import Icon from 'react-native-vector-icons/MaterialIcons'
-import { FeedbackTextInput } from './SignupLoginComponent'
 import {
   LoginButton,
   LoginButtonText,
@@ -34,6 +33,7 @@ import {
 import { grid } from '../design/grid'
 import { colors } from '../design/colors'
 import LoginRegisterInputField from './LoginRegisterInputField'
+import { FeedbackTextInput } from '../types'
 
 const dim = Dimensions.get('window')
 
@@ -383,7 +383,7 @@ export const LoginConfirmedPage: React.SFC<{
 export const LoginLoadingPage: React.SFC<{}> = () => (
   <Image
     style={{ width: 46, height: 25 }}
-    source={require('../../../../assets/images/loader-white.gif')}
+    source={require('../../assets/images/loader-white.gif')}
   />
 )
 
